@@ -8,13 +8,18 @@ font-family: $font-family-alatsi;
 .content-general{
 	display: grid;
 	grid-template-rows: auto auto auto;
+	padding: 0;
+	margin: 0;
+	background: url("../images/fondo.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 
 	.content-one{
 		.header{
 				.navbar{
 				width: 100%;
 				height: 60px;
-				background: yellow;
 				display: grid;
 				grid-template-columns: 85% 15%;
 				@media(min-width: $tablet){
@@ -25,14 +30,13 @@ font-family: $font-family-alatsi;
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					background: #444;
 					font-size: 1.7rem;
+					color: $color-light-one;
 				}
 				.container-menu{
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					background: #bebebe;
 					i{
 						font-size: 1.7rem;
 					}
@@ -45,7 +49,6 @@ font-family: $font-family-alatsi;
 	}
 
 	.content-two{
-		background: $color-dark-one;
 		position: relative;
 		.container-banner{
 		width: 100%;
@@ -63,10 +66,9 @@ font-family: $font-family-alatsi;
 			display: flex;
 			align-items: center;
 			@media(min-width: $tablet){
-				font-size: 10rem;
+				font-size: 8rem;
 			}
 			.items-text{
-				background: orange;
 				width: 150px;
 				display: flex;
 				flex-direction: column;	
@@ -94,7 +96,6 @@ font-family: $font-family-alatsi;
 			top: 40%;
 			left: 2%;
 			color: $color-light-one;
-			background: #444;
 			width: auto;
 			display:flex;
 			flex-direction: column;
@@ -148,7 +149,7 @@ font-family: $font-family-alatsi;
 .content-three{
 	width: 100%;
 	height: 400px;
-	background: orange;
+	padding: 2rem 0;
 	@media(min-width: $tablet){
 		height: 100vh;
 		width: 80%;
@@ -202,7 +203,7 @@ font-family: $font-family-alatsi;
 .content-four{
 	width: 100%;
 	height: 600px;
-	background: yellow;
+	padding: 2rem 0;
 	@media(min-width: $tablet){
 				height: 100vh;
 				width: 80%;
@@ -306,7 +307,7 @@ font-family: $font-family-alatsi;
 					height: 100px;
 					background:  $color-light-one;
 					@media(min-width: $tablet){
-						width: 70%;
+						width: 150px;
 						height: 2px;
 					}
 				}
@@ -319,11 +320,12 @@ font-family: $font-family-alatsi;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
-				align-items: center;
+				align-items: flex-start;
 				@media(min-width: $tablet){
 				flex-direction: row;
 				width: 55%;
 				height: 10%;
+				align-items: center;
 				}
 				.item-text-service{
 					color:  $color-light-one;
@@ -331,6 +333,7 @@ font-family: $font-family-alatsi;
 					font-weight: 300;
 					@media(min-width: $tablet){
 						width: 90px;
+						height: 70%;
 						text-align: center;
 					}
 				}
@@ -360,8 +363,8 @@ font-family: $font-family-alatsi;
 	width: 100%;
 	height: 100%;
 	display: grid;
-	grid-template-rows: 10% 65% 25%;
-	background: orange;
+	grid-template-rows: 17% 50% 33%;
+	padding: 2rem 0;
 	@media(min-width: $tablet){
 		width: 80%;
 		height: 90vh;
@@ -405,7 +408,7 @@ font-family: $font-family-alatsi;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-
+			color:  $color-light-one;
 		}
 	}
 		.container-jobs-steps{
@@ -456,7 +459,7 @@ font-family: $font-family-alatsi;
 					height: 100px;
 					background:  $color-light-one;
 					@media(min-width: $tablet){
-						width: 70%;
+						width: 150px;
 						height: 2px;
 					}
 				}
@@ -469,11 +472,12 @@ font-family: $font-family-alatsi;
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
-				align-items: center;
+				align-items: flex-start;
 				@media(min-width: $tablet){
 				flex-direction: row;
 				width: 55%;
 				height: 70%;
+				align-items: center;
 				}
 				.item-text-job{
 					color:  $color-light-one;

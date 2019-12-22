@@ -1,7 +1,6 @@
 .container-sidebar{
 		height: 100%;
 	    width: 100%;
-	    background-color: $color-light-one;
 	    position: fixed;
 	    z-index: 999;
 	    overflow: auto;
@@ -28,7 +27,7 @@
 }
     .item-bar-item{
 	    width: 100%;
-	    color:$color-dark-one;
+	    color:$color-light-one;
 	    display: block;
 	    padding: 1rem 16px;
 	    text-align: left;
@@ -38,9 +37,11 @@
 	    outline: 0;
 	    text-decoration: none;
 	    align-items: center;
-	    &:hover{
+	    @media(max-width: $tablet){
+			&:hover{
 	    	background: #bebebe;
 	    	color:$color-light-one;
+	    	}
 	    }
 
 	    i{
