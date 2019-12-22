@@ -88,8 +88,8 @@ body {
   padding: 0;
   margin: 0;
   background: url("../images/fondo.png");
-  background-attachment: fixed;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-position: center; }
   .content-general .content-one .header .navbar {
     width: 100%;
@@ -149,7 +149,8 @@ body {
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+        letter-spacing: 5px; }
         @media (min-width: 1366px) {
           .content-general .content-two .container-banner .container-texts {
             font-size: 8rem; } }
@@ -283,7 +284,7 @@ body {
           color: #fff; }
           @media (min-width: 1366px) {
             .content-general .content-three .container-titles .container-description .text-description {
-              font-size: 1.5rem; } }
+              font-size: 1.2rem; } }
   .content-general .content-four {
     width: 100%;
     height: 600px;

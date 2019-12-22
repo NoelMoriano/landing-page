@@ -11,8 +11,8 @@ font-family: $font-family-alatsi;
 	padding: 0;
 	margin: 0;
 	background: url("../images/fondo.png");
-	background-attachment: fixed;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	background-position: center;
 
 	.content-one{
@@ -65,6 +65,7 @@ font-family: $font-family-alatsi;
 			font-family: $font-family-alatsi;
 			display: flex;
 			align-items: center;
+			letter-spacing: 5px;
 			@media(min-width: $tablet){
 				font-size: 8rem;
 			}
@@ -193,7 +194,7 @@ font-family: $font-family-alatsi;
 				font-size:.9rem;
 				color: $color-light-one;
 				@media(min-width: $tablet){
-				font-size: 1.5rem;
+				font-size: 1.2rem;
 			}
 			}
 		}
