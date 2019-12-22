@@ -8,12 +8,13 @@
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
+	    background: $color-light-one;
 	    @media(min-width: $tablet){
 			position: relative;
 			flex-direction: row;
 			width: 100%;
 			justify-content: flex-end;
-
+			background: none;
 		}
 
 .container-items{
@@ -27,7 +28,7 @@
 }
     .item-bar-item{
 	    width: 100%;
-	    color:$color-light-one;
+	    color: $color-dark-one;
 	    display: block;
 	    padding: 1rem 16px;
 	    text-align: left;
@@ -37,11 +38,12 @@
 	    outline: 0;
 	    text-decoration: none;
 	    align-items: center;
-	    @media(max-width: $tablet){
-			&:hover{
+	    &:hover{
 	    	background: #bebebe;
 	    	color:$color-light-one;
 	    	}
+	    @media(min-width: $tablet){
+	    	color:$color-light-one;
 	    }
 
 	    i{
