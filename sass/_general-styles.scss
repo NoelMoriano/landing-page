@@ -1,0 +1,464 @@
+body{
+margin:0;
+padding:0;
+box-sizing:border-box;	
+font-family: $font-family-alatsi;
+}
+
+.content-general{
+	display: grid;
+	grid-template-rows: auto auto auto;
+
+	.content-one{
+		.header{
+				.navbar{
+				width: 100%;
+				height: 60px;
+				background: yellow;
+				display: grid;
+				grid-template-columns: 85% 15%;
+				@media(min-width: $tablet){
+					grid-template-columns: 25% 75%;
+				}
+
+				.container-logo{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background: #444;
+					font-size: 1.7rem;
+				}
+				.container-menu{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background: #bebebe;
+					i{
+						font-size: 1.7rem;
+					}
+					@media(min-width: $tablet){
+					display: none
+					}
+				}
+			}
+		}
+	}
+
+	.content-two{
+		background: $color-dark-one;
+		position: relative;
+		.container-banner{
+		width: 100%;
+		height: 300px;
+		@media(min-width: $tablet){
+					height: 100vh;
+		}
+		.container-texts{
+			width: 100%;
+			height: 100%;
+			font-size: 4rem;
+			color:$color-light-one;
+			font-weight: 800;
+			font-family: $font-family-alatsi;
+			display: flex;
+			align-items: center;
+			@media(min-width: $tablet){
+				font-size: 10rem;
+			}
+			.items-text{
+				background: orange;
+				width: 150px;
+				display: flex;
+				flex-direction: column;	
+				padding-left: 4rem;	
+				line-height: .6;	
+				@media(min-width: $tablet){
+						padding-left: 20rem;	
+					}
+					.text-one{
+						
+					}
+					.text-two{
+						color: red;
+
+					}
+					.text-three{
+						
+				}
+				}
+			}
+		}
+		//Items Absolutos
+		.items-social-red{
+			position: absolute;
+			top: 40%;
+			left: 2%;
+			color: $color-light-one;
+			background: #444;
+			width: auto;
+			display:flex;
+			flex-direction: column;
+			font-size: .7rem;
+			@media(min-width: $tablet){
+					top: 60%;
+					left: 2%;
+			}	
+			.item-red{
+				border:1px solid $color-light-one;
+				border-radius:50%;
+				padding:5px;
+				width: 6px;
+				height: 6px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin:3px 0;
+				text-decoration: none;
+				cursor:pointer;
+				i{
+					color:$color-light-one;
+					@media(min-width: $tablet){
+						font-size: 1rem;
+					}
+				}
+				@media(min-width: $tablet){
+					padding:8px;
+					width: 20px;
+					height: 20px;
+			}		
+			}
+		}
+		.item-rayitas{
+			position: absolute;
+			bottom:1%;
+			right: 3%;
+			img{
+				width: 100px;
+				@media(min-width: $tablet){
+						width: 200px;
+					}
+			}
+			@media(min-width: $tablet){
+						font-size: 1rem;
+			}
+		}
+	}
+
+
+.content-three{
+	width: 100%;
+	height: 400px;
+	background: orange;
+	@media(min-width: $tablet){
+		height: 100vh;
+		width: 80%;
+		margin: auto;
+	}
+	.container-titles{
+		width: 100%;
+		height: 100%;
+		display: grid;
+		grid-template-rows:20% 80%;	
+	.container-title-one{
+		display: flex;
+		flex-direction: column;
+		color: $color-light-one;
+		padding: 1rem 0 1rem 1rem;
+		.text-small{
+			font-size: .7rem;
+			font-weight: 300;
+			@media(min-width: $tablet){
+				font-size: 1rem;
+			}
+		}
+		.text-title{
+			font-size: .7rem;
+			font-weight: 800;
+			@media(min-width: $tablet){
+				font-size: 2rem;
+			}
+		}
+	}
+	.container-description{
+		display: flex;
+		align-items:center;
+		text-align: justify;
+		padding: 0 1rem;
+			.text-description{
+				padding: 0;
+				margin: 0;
+				font-weight: 100;
+				font-family:arial;
+				font-size:.9rem;
+				color: $color-light-one;
+				@media(min-width: $tablet){
+				font-size: 1.5rem;
+			}
+			}
+		}
+	}
+}
+
+.content-four{
+	width: 100%;
+	height: 600px;
+	background: yellow;
+	@media(min-width: $tablet){
+				height: 100vh;
+				width: 80%;
+				margin:auto;
+			}
+	.container-items{
+		width: 100%;
+		height: 100%;
+		display: grid;
+		grid-template-rows: 10% 30% 60%;
+		.container-title-one{
+			display: flex;
+			flex-direction: column;
+			color: $color-light-one;
+			padding: 1rem 0 1rem 1rem;
+			.text-small{
+				font-size: .7rem;
+				font-weight: 300;
+				@media(min-width: $tablet){
+				font-size: 1rem;
+			}
+			}
+			.text-title{
+				font-size: .9rem;
+				font-weight: 800;
+				@media(min-width: $tablet){
+				font-size: 2rem;
+				}
+			}
+		}
+		.container-title-section{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			.title-section{
+				font-size: 3rem;
+				color:red;
+				font-weight: 800;
+				text-align: right;
+				padding-right: 1rem;
+				@media(min-width: $tablet){
+				font-size: 8rem;
+				padding-right: 4rem;
+				display: flex;
+				flex-direction: column;
+				}
+				.item-1{
+
+				}
+				.item-2{
+					
+				}
+			}
+		}
+
+		.container-services{
+			display: flex;
+			padding-bottom: 2rem;
+			position: relative;
+			@media(min-width: $tablet){
+			flex-direction: column;
+			    justify-content: flex-start;
+    			align-items: center;
+    			padding-top: 4rem;
+			}
+
+			.container-items{		
+				width: 20%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				padding-left: 1rem;
+				@media(min-width: $tablet){
+				flex-direction: row;
+				width: 50%;
+				height: 10%;
+				padding: 0;
+				}
+				.item-service{
+					width: 17px;
+					height: 17px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+					margin:10px 0;
+					i{
+						color:  $color-light-one;
+						font-size: .9rem;
+						border: 1px solid $color-light-one;
+						border-radius: 50%;
+					    padding: 4px;
+
+					}
+				}
+
+					.line-space{
+					width: 2px;
+					height: 100px;
+					background:  $color-light-one;
+					@media(min-width: $tablet){
+						width: 95%;
+						height: 2px;
+					}
+				}
+			
+			}
+
+			.container-text-services{
+				width: 20%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				@media(min-width: $tablet){
+				flex-direction: row;
+				width: 55%;
+				height: 10%;
+				}
+				.item-text-service{
+					color:  $color-light-one;
+					font-size: .9rem;
+					font-weight: 300;
+					@media(min-width: $tablet){
+						width: 90px;
+						text-align: center;
+					}
+				}
+			}
+
+			.item-rayitas{
+			position: absolute;
+			bottom:5%;
+			right: 3%;
+			@media(min-width: $tablet){
+						bottom:5%;
+						left: 3%;
+				}
+			img{
+				width: 100px;
+				@media(min-width: $tablet){
+						width: 200px;
+				}
+			}
+		}
+
+		}
+	}
+}
+
+.content-jobs-five{
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-rows: 10% 65% 25%;
+	background: orange;
+	.container-titles-items{
+		.container-title-one{
+			display: flex;
+			flex-direction: column;
+			padding: 1rem 0 1rem 1rem;
+			.text-small{
+				font-size: .7rem;
+				font-weight: 300;
+			}
+			.text-title{
+				font-size: .9rem;
+				font-weight: 800;
+			}
+		}
+	}	
+
+	.container-jobs{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		.item-job{
+			width: 200px;
+			height: 200px;
+			border:2px solid $color-light-one;
+			padding: 20px;
+			text-align:center;
+			margin:5px 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+	}
+		.container-jobs-steps{
+			display: flex;
+			padding: 2rem 0;
+			position: relative;
+
+			.container-items{		
+				width: 20%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				padding-left: 1rem;
+				.item-job{
+					width: 17px;
+					height: 17px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+					margin:10px 0;
+					i{
+						color:  $color-light-one;
+						font-size: .9rem;
+						border: 1px solid $color-light-one;
+						border-radius: 50%;
+					    padding: 4px;
+
+					}
+				}
+
+					.line-space{
+					width: 2px;
+					height: 100px;
+					background:  $color-light-one
+				}
+			
+			}
+
+			.container-text-jobs{
+				width: 20%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				.item-text-job{
+					color:  $color-light-one;
+					font-size: .9rem;
+					font-weight: 300;
+				}
+			}
+
+			.item-rayitas{
+			position: absolute;
+			bottom:5%;
+			right: 3%;
+			img{
+				width: 100px;
+			}
+		}
+			
+		}
+	}
+
+}

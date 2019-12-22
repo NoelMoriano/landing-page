@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 321 236" width="321" height="236">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 3 } 
+		.shp1 { display: none } 
+	</style>
+	<g id="rayitas">
+		<path id="Trazado 59" class="shp0" d="M102.93 229.31L129.46 229.31L169.2 10.13L143.27 10.13L102.93 229.31Z" />
+		<path id="Trazado 60" class="shp0" d="M55.37 229.31L81.9 229.31L121.64 10.13L95.71 10.13L55.37 229.31Z" />
+		<path id="Trazado 61" class="shp0" d="M5.07 229.31L31.61 229.31L71.35 10.13L45.42 10.13L5.07 229.31Z" />
+		<path id="Trazado 64" class="shp0" d="M249.73 229.31L276.26 229.31L316 10.13L290.07 10.13L249.73 229.31Z" />
+		<path id="Trazado 63" class="shp0" d="M202.17 229.31L228.7 229.31L268.44 10.13L242.51 10.13L202.17 229.31Z" />
+		<path id="Trazado 62" class="shp0" d="M151.87 229.31L178.4 229.31L218.14 10.13L192.21 10.13L151.87 229.31Z" />
+	</g>
+	<path id="6" class="shp1" d="M5 10L1925 10L1925 4330L5 4330L5 10Z" />
+	<path id="6" class="shp1" d="M5 10L1925 10L1925 4330L5 4330L5 10Z" />
+</svg>
