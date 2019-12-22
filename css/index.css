@@ -122,6 +122,15 @@ body {
       font-size: 1.7rem;
       color: #fff;
       padding-left: 1rem; }
+      .content-general .content-one .header .navbar .container-logo img {
+        width: 150px;
+        height: 40px;
+        margin-top: 10px; }
+        @media (min-width: 1366px) {
+          .content-general .content-one .header .navbar .container-logo img {
+            width: 200px;
+            height: 50px;
+            margin-top: 0; } }
     .content-general .content-one .header .navbar .container-menu {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -176,9 +185,9 @@ body {
           line-height: .6; }
           @media (min-width: 1366px) {
             .content-general .content-two .container-banner .container-texts .items-text {
-              padding-left: 20rem; } }
+              padding-left: 17rem; } }
           .content-general .content-two .container-banner .container-texts .items-text .text-two {
-            color: red; }
+            color: #D00017; }
     .content-general .content-two .items-social-red {
       position: absolute;
       top: 40%;
@@ -195,7 +204,7 @@ body {
       font-size: .7rem; }
       @media (min-width: 1366px) {
         .content-general .content-two .items-social-red {
-          top: 60%;
+          top: 40%;
           left: 2%; } }
       .content-general .content-two .items-social-red .item-red {
         border: 1px solid #fff;
@@ -224,11 +233,15 @@ body {
           .content-general .content-two .items-social-red .item-red {
             padding: 8px;
             width: 20px;
-            height: 20px; } }
+            height: 20px;
+            margin: 5px 0; } }
     .content-general .content-two .item-rayitas {
       position: absolute;
       bottom: 1%;
       right: 3%; }
+      @media (min-width: 1366px) {
+        .content-general .content-two .item-rayitas {
+          bottom: 10%; } }
       .content-general .content-two .item-rayitas img {
         width: 100px; }
         @media (min-width: 1366px) {
@@ -270,7 +283,7 @@ body {
             .content-general .content-three .container-titles .container-title-one .text-small {
               font-size: 1rem; } }
         .content-general .content-three .container-titles .container-title-one .text-title {
-          font-size: .7rem;
+          font-size: .9rem;
           font-weight: 800; }
           @media (min-width: 1366px) {
             .content-general .content-three .container-titles .container-title-one .text-title {
@@ -345,7 +358,6 @@ body {
         padding-top: 3rem; }
         .content-general .content-four .container-items .container-title-section .title-section {
           font-size: 3rem;
-          color: red;
           font-weight: 800;
           text-align: right;
           padding-right: 1rem;
@@ -362,6 +374,10 @@ body {
               font-size: 8rem;
               padding-right: 4rem;
               line-height: 120px; } }
+          .content-general .content-four .container-items .container-title-section .title-section .item-1 {
+            color: #D00017; }
+          .content-general .content-four .container-items .container-title-section .title-section .item-2 {
+            color: #FE0000; }
       .content-general .content-four .container-items .container-services {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -427,7 +443,29 @@ body {
             .content-general .content-four .container-items .container-services .container-items .item-service i {
               color: #fff;
               font-size: .9rem;
-              border: 1px solid #fff;
+              padding: 4px; }
+          .content-general .content-four .container-items .container-services .container-items .item-service-active {
+            width: 17px;
+            height: 17px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin: 10px 0;
+            color: #D00017; }
+            .content-general .content-four .container-items .container-services .container-items .item-service-active i {
+              color: #D00017;
+              font-size: .9rem;
+              border: 1px solid #D00017;
               border-radius: 50%;
               padding: 4px; }
           .content-general .content-four .container-items .container-services .container-items .line-space {
@@ -474,6 +512,8 @@ body {
                 width: 90px;
                 height: 70%;
                 text-align: center; } }
+          .content-general .content-four .container-items .container-services .container-text-services .item-text-service-active {
+            color: #D00017; }
         .content-general .content-four .container-items .container-services .item-rayitas {
           position: absolute;
           bottom: 5%;
@@ -618,7 +658,29 @@ body {
           .content-general .content-jobs-five .container-jobs-steps .container-items .item-job i {
             color: #fff;
             font-size: .9rem;
-            border: 1px solid #fff;
+            padding: 4px; }
+        .content-general .content-jobs-five .container-jobs-steps .container-items .item-job-active {
+          width: 17px;
+          height: 17px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin: 10px 0;
+          color: #D00017; }
+          .content-general .content-jobs-five .container-jobs-steps .container-items .item-job-active i {
+            font-size: .9rem;
+            color: #D00017;
+            border: 1px solid #D00017;
             border-radius: 50%;
             padding: 4px; }
         .content-general .content-jobs-five .container-jobs-steps .container-items .line-space {
@@ -664,3 +726,5 @@ body {
             .content-general .content-jobs-five .container-jobs-steps .container-text-jobs .item-text-job {
               width: 90px;
               text-align: center; } }
+        .content-general .content-jobs-five .container-jobs-steps .container-text-jobs .item-text-job-active {
+          color: #D00017; }
