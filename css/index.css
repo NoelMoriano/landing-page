@@ -917,7 +917,7 @@ body {
     width: 100%;
     height: 200px;
     background: url("../images/banner-blog-article.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; }
     @media (min-width: 1366px) {
       .content-general-blog-article .content-banner-primary {
@@ -1060,9 +1060,257 @@ body {
       .content-general-blog-article .content-description-blog-article .container-blog-article-detail .item-text-description {
         font-family: "Arial", sans-serif;
         font-weight: 300;
-        font-size: .9rem; }
+        font-size: .9rem;
+        text-align: justify; }
       .content-general-blog-article .content-description-blog-article .container-blog-article-detail .img-description-blog {
         width: 100%;
         height: 200px;
         -o-object-fit: cover;
         object-fit: cover; }
+
+.content-general-about-us {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%; }
+  .content-general-about-us .content-banner-primary {
+    width: 100%;
+    height: 200px;
+    background: url("../images/banner-about-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    @media (min-width: 1366px) {
+      .content-general-about-us .content-banner-primary {
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh; } }
+    .content-general-about-us .content-banner-primary .content-one .header .navbar {
+      width: 100%;
+      height: 60px;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 85% 15%;
+      grid-template-columns: 85% 15%; }
+      @media (min-width: 1366px) {
+        .content-general-about-us .content-banner-primary .content-one .header .navbar {
+          -ms-grid-columns: 25% 75%;
+          grid-template-columns: 25% 75%; } }
+      .content-general-about-us .content-banner-primary .content-one .header .navbar .container-logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 1.7rem;
+        color: #fff;
+        padding-left: 1rem; }
+        .content-general-about-us .content-banner-primary .content-one .header .navbar .container-logo img {
+          width: 150px;
+          height: 40px;
+          margin-top: 10px; }
+          @media (min-width: 1366px) {
+            .content-general-about-us .content-banner-primary .content-one .header .navbar .container-logo img {
+              width: 200px;
+              height: 50px;
+              margin-top: 0; } }
+      .content-general-about-us .content-banner-primary .content-one .header .navbar .container-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff; }
+        .content-general-about-us .content-banner-primary .content-one .header .navbar .container-menu i {
+          font-size: 1.7rem; }
+        @media (min-width: 1366px) {
+          .content-general-about-us .content-banner-primary .content-one .header .navbar .container-menu {
+            display: none; } }
+    .content-general-about-us .content-banner-primary .content-about-us-banner {
+      width: 100%;
+      min-height: 100vh; }
+      @media (min-width: 1366px) {
+        .content-general-about-us .content-banner-primary .content-about-us-banner {
+          height: 100vh; } }
+      .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 1rem;
+        width: 100%;
+        height: 100%; }
+        @media (min-width: 1366px) {
+          .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content {
+            padding: 0; } }
+        .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content .item-title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 90%;
+          height: auto;
+          color: #fff; }
+          .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content .item-title .text-title {
+            font-weight: 800;
+            font-size: 1.5rem;
+            text-align: center; }
+            @media (min-width: 1366px) {
+              .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content .item-title .text-title {
+                font-size: 3.7rem; } }
+          .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content .item-title .text-sub-title {
+            font-family: "Arial", sans-serif;
+            font-weight: 300;
+            font-size: .8rem; }
+            @media (min-width: 1366px) {
+              .content-general-about-us .content-banner-primary .content-about-us-banner .container-title-content .item-title .text-sub-title {
+                font-size: 1rem; } }
+  .content-general-about-us .content-about-us-page {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .content-general-about-us .content-about-us-page .container-team {
+      padding: 2rem 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      @media (min-width: 1366px) {
+        .content-general-about-us .content-about-us-page .container-team {
+          padding: 5rem 0px;
+          width: 80%;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; } }
+      .content-general-about-us .content-about-us-page .container-team .item-member {
+        width: 100%;
+        height: 350px;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: 70% 30%;
+        grid-template-rows: 70% 30%;
+        color: #000;
+        margin: 1rem 0; }
+        @media (min-width: 720px) {
+          .content-general-about-us .content-about-us-page .container-team .item-member {
+            width: 200px;
+            height: 250px;
+            margin: 1rem 5px; } }
+        .content-general-about-us .content-about-us-page .container-team .item-member .img-item img {
+          width: 100%;
+          height: 100%; }
+        .content-general-about-us .content-about-us-page .container-team .item-member .description-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: start;
+          -ms-flex-align: start;
+          align-items: flex-start;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          .content-general-about-us .content-about-us-page .container-team .item-member .description-item .name-member {
+            width: 100%;
+            font-size: 1.5rem;
+            text-align: center; }
+          .content-general-about-us .content-about-us-page .container-team .item-member .description-item .rol-member {
+            width: 100%;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 100;
+            font-family: "Arial", sans-serif; }
+  .content-general-about-us .content-text-bottom-about-us {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: url("../images/banner-about-us-bottom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    @media (min-width: 1366px) {
+      .content-general-about-us .content-text-bottom-about-us {
+        background-size: 100% 100%;
+        width: 100%; } }
+    .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us {
+      padding: 5rem 0;
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-rows: calc(100% / 3);
+      grid-template-rows: calc(100% / 3);
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      @media (min-width: 1366px) {
+        .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us {
+          -ms-grid-rows: 100%;
+          grid-template-rows: 100%;
+          -ms-grid-columns: (33.33%)[3];
+          grid-template-columns: repeat(3, 33.33%);
+          width: 80%;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; } }
+      .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us .item-text {
+        color: #fff;
+        margin: 3rem 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        @media (min-width: 1366px) {
+          .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us .item-text {
+            margin: 0;
+            padding: 1rem 2rem; } }
+        .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us .item-text .item-title {
+          font-size: 1.2rem;
+          font-weight: 800;
+          text-align: center; }
+        .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us .item-text .item-description {
+          font-size: .9rem;
+          font-family: "Arial", sans-serif;
+          font-weight: 100;
+          text-align: center;
+          width: 80%; }
+          @media (min-width: 1366px) {
+            .content-general-about-us .content-text-bottom-about-us .container-items-bottom-about-us .item-text .item-description {
+              font-size: 1rem; } }
