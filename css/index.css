@@ -98,7 +98,7 @@ body {
   @media (min-width: 1366px) {
     .content-general {
       background-size: 100% 100%; } }
-  .content-general .content-one .header .navbar {
+  .content-general .header .navbar {
     width: 100%;
     height: 60px;
     display: -ms-grid;
@@ -106,10 +106,10 @@ body {
     -ms-grid-columns: 85% 15%;
     grid-template-columns: 85% 15%; }
     @media (min-width: 1366px) {
-      .content-general .content-one .header .navbar {
+      .content-general .header .navbar {
         -ms-grid-columns: 25% 75%;
         grid-template-columns: 25% 75%; } }
-    .content-general .content-one .header .navbar .container-logo {
+    .content-general .header .navbar .container-logo {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -122,16 +122,16 @@ body {
       font-size: 1.7rem;
       color: #fff;
       padding-left: 1rem; }
-      .content-general .content-one .header .navbar .container-logo img {
+      .content-general .header .navbar .container-logo img {
         width: 150px;
         height: 40px;
         margin-top: 10px; }
         @media (min-width: 1366px) {
-          .content-general .content-one .header .navbar .container-logo img {
+          .content-general .header .navbar .container-logo img {
             width: 200px;
             height: 50px;
             margin-top: 0; } }
-    .content-general .content-one .header .navbar .container-menu {
+    .content-general .header .navbar .container-menu {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -142,10 +142,10 @@ body {
       -ms-flex-align: center;
       align-items: center;
       color: #fff; }
-      .content-general .content-one .header .navbar .container-menu i {
+      .content-general .header .navbar .container-menu i {
         font-size: 1.7rem; }
       @media (min-width: 1366px) {
-        .content-general .content-one .header .navbar .container-menu {
+        .content-general .header .navbar .container-menu {
           display: none; } }
   .content-general .content-two {
     position: relative; }
