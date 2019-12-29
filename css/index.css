@@ -60,7 +60,10 @@
       color: #fff; }
     @media (min-width: 1366px) {
       .container-sidebar .item-bar-item {
-        color: #fff; } }
+        color: #fff; }
+        .container-sidebar .item-bar-item:hover {
+          background: none;
+          color: #bebebe; } }
     .container-sidebar .item-bar-item i {
       margin-left: 5px; }
   .container-sidebar .item-close {

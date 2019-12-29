@@ -44,6 +44,11 @@
 	    	}
 	    @media(min-width: $tablet){
 	    	color:$color-light-one;
+
+	    	&:hover{
+	    	background: none;
+	    	color:#bebebe;
+	    	}
 	    }
 
 	    i{
