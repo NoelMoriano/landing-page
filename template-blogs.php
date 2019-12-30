@@ -19,7 +19,7 @@
 
 				<div class="item-article">
 					<div class="img-item">
-						<a href="#"><img class="img-article" src="images/article-blank.png" alt="Img-article"></a>
+						<a href="#"><img class="img-article" src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Img-article"></a>
 					</div>
 					<div class="description-item">
 						<a href="#"><span class="title-article">Articulo 1</span></a>
@@ -30,7 +30,7 @@
 
 				<div class="item-article">
 					<div class="img-item">
-						<a href="#"><img class="img-article" src="images/article-blank.png" alt="Img-article"></a>
+						<a href="#"><img class="img-article" src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Img-article"></a>
 					</div>
 					<div class="description-item">
 						<a href="#"><span class="title-article">Articulo 2</span></a>
@@ -41,7 +41,7 @@
 
 				<div class="item-article">
 					<div class="img-item">
-						<a href="#"><img class="img-article" src="images/article-blank.png" alt="Img-article"></a>
+						<a href="#"><img class="img-article" src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Img-article"></a>
 					</div>
 					<div class="description-item">
 						<a href="#"><span class="title-article">Articulo 3</span></a>
@@ -53,7 +53,7 @@
 
 				<div class="item-article">
 					<div class="img-item">
-						<a href="#"><img class="img-article" src="images/article-blank.png" alt="Img-article"></a>
+						<a href="#"><img class="img-article" src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Img-article"></a>
 					</div>
 					<div class="description-item">
 						<a href="#"><span class="title-article">Articulo 4</span></a>
