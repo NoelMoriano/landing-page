@@ -1,5 +1,8 @@
 	<?php  get_header() ?>
 
+
+	<?php $homePage = get_field('home-banner') ?>
+
 	<section class="content-two">
 		<div class="items-social-red">
 			<a class="item-red" href="#">
@@ -27,9 +30,9 @@
 		<div class="container-banner">
 			<div class="container-texts">
 				<div class="items-text">
-				<span class="text-one">TUS</span>
-				<span class="text-two">IDEAS</span>
-				<span class="text-three">VALEN.</span>
+				<span class="text-one"><?=$homePage['title_white_top'];?></span>
+				<span class="text-two"><?=$homePage['title_red_center'];?></span>
+				<span class="text-three"><?=$homePage['title_white_bottom'];?></span>
 				</div>
 			</div>
 		</div>
