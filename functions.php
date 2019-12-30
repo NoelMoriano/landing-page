@@ -45,6 +45,6 @@ add_theme_support('post-thumbnails');
 //Register menus navbar
 register_nav_menus(
 	array(
-		'top-menu' => __('Top Menu','theme'),
+		'top_menu' => __('Top Menu','theme'),
 	)
 );
