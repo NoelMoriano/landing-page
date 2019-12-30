@@ -1,3 +1,5 @@
+	<?php  get_header() ?>
+
 	<section class="content-two">
 		<div class="items-social-red">
 			<a class="item-red" href="#">
@@ -142,3 +144,5 @@
 					</div>
 			</div>
 	</section>
+
+	<?php  get_footer() ?>
