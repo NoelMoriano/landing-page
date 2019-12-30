@@ -17,11 +17,6 @@ add_action('wp_enqueue_scripts','load_stylesheets');
 
 
 
-
-
-
-
-
 //Loads Scripts
 
 function addjs() 
@@ -39,10 +34,13 @@ add_action('wp_enqueue_scripts','addjs');
 
 
 
+//Custom imgage size
+add_image_size('banner_about',1200, 600, false);
 
 
 //Support menus navbar
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 
 //Register menus navbar
 register_nav_menus(

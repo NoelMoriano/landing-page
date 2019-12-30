@@ -6,7 +6,7 @@
 		get_header();
 ?>
 
-	<section class="content-banner-primary-about-us">
+	<section class="content-banner-primary-about-us" style="background: url(<?php the_post_thumbnail_url('banner_about'); ?>) !important;background-size: cover !important">
 		<section class="content-about-us-banner">
 			<div class="container-title-content">
 				<div class="item-title">
