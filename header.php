@@ -29,11 +29,16 @@
 						  <button onclick="sidebar_close()" class="item-bar-item item-close">
 						<span><i class="fas fa-times"></i></span>
 						</button>
-						  <a href="#" class="item-bar-item item-button">Español<span><i class="fas fa-angle-down"></i></span></a>
-						  <a href="blog.php" class="item-bar-item item-button">Blog</a>
-						  <a href="about-us.php" class="item-bar-item item-button">Nosotros</a>
-						  <a href="#" class="item-bar-item item-button">Pensamos</a>
-						  <a href="conversemos.php" class="item-bar-item item-button">Conversemos</a>
+
+					<?php wp_nav_menu(
+
+							array(
+
+								'theme_location' => 'top_menu'
+							)
+
+					); ?>
+
 					  </div>
 					</div>
 					
