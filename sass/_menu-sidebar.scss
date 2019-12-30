@@ -9,7 +9,7 @@
 	    right: 0;
 	    display: flex;
 	    flex-direction: column;
-	    align-items: center;
+	    align-items: flex-end;
 	    background: $color-light-one;
 	    @media(min-width: $tablet){
 			position: relative;
@@ -20,52 +20,8 @@
 		}
 
 
-.container-items{
-	width: 100%;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	@media(min-width: $tablet){
-			height: 100%;
-	    	width: 50%;
-			display: flex;
-			justify-content: flex-end;
-		}
-
-
-		li{
-
-			.item-bar-item{
-			    width: 100%;
-			    color: $color-dark-one;
-			    display: block;
-			    padding: 1rem 16px;
-			    text-align: left;
-			    border: none;
-			    white-space: normal;
-			    float: none;
-			    outline: 0;
-			    text-decoration: none;
-			    &:hover{
-			    	background: #bebebe;
-			    	color:$color-light-one;
-			    	}
-			    @media(min-width: $tablet){
-			    	color:$color-light-one;
-
-			    	&:hover{
-			    	background: none;
-			    	color:#bebebe;
-			    	}
-			    }
-
-			    i{
-			    	margin-left: 5px;
-			    }
-			}
-
-			.item-close{
-				padding: 1.2rem 16px;
+		.item-close{
+				padding: 1.2rem 20px;
 				display: flex;
 				justify-content: flex-end;
 				i{
@@ -76,9 +32,69 @@
 				
 				}
 			}
-		}
 
-}
+
+		.container-items{
+			width: 100%;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			@media(min-width: $tablet){
+					height: 100%;
+			    	width: 50%;
+					display: flex;
+					justify-content: flex-end;
+				}
+
+
+				li{
+					
+					    width: 100%;
+					    color: $color-dark-one;
+					    display: block;
+					    padding: 1rem 16px;
+					    text-align: left;
+					    border: none;
+					    white-space: normal;
+					    float: none;
+					    outline: 0;
+					    text-decoration: none;
+					    &:hover{
+					    	background: #bebebe;
+					    	color:$color-light-one;
+					    	}
+
+					    	@media(min-width: $tablet){
+					    	color:$color-light-one;
+
+					    	&:hover{
+					    	background: none;
+					    	color:#bebebe;
+					    	}
+					    }
+
+
+					    i{
+					    	margin-left: 5px;
+					    }
+
+					    a{
+					    	text-decoration: none;
+					    	color:$color-dark-one;
+
+					    	@media(min-width: $tablet){
+					    	color:$color-light-one;
+
+					    	&:hover{
+					    	background: none;
+					    	color:#bebebe;
+					    	}
+					    }
+					    }
+
+				}
+
+		}
    
 
 }

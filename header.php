@@ -25,7 +25,10 @@
 
 				<!-- Sidebar -->
 					<div class="container-sidebar item-bar-block" id="mySidebar">
-						
+
+						<div onclick="sidebar_close()" class="item-bar-item item-close">
+							<span><i class="fas fa-times"></i></span>
+							</div>
 
 					<?php wp_nav_menu(
 
