@@ -34,3 +34,19 @@ function addjs()
 }
 
 add_action('wp_enqueue_scripts','addjs');
+
+
+
+
+
+
+
+//Support menus navbar
+add_theme_support('menus');
+
+//Register menus navbar
+register_nav_menus(
+	array(
+		'top-menu' => __('Top Menu','theme'),
+	)
+);
