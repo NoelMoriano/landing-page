@@ -1,47 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Langing Page - Blog Article</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link rel="stylesheet" href="css/index.css">
+<?php include("header.php"); ?>
 
-</head>
-<body>
 
-<section class="content-general-blog-article">
-
-	<section class="content-banner-primary">
-
-		<section class="content-one">
-			<div class="header">
-				<div class="navbar">
-					<div class="container-logo">
-						<div class="item-logo"><a href="index.html"><img src="images/logo.svg" alt="logo"></a></div>
-					</div>
-					<div class="container-menu" onclick="sidebar_open()">
-						<i class="fas fa-bars"></i>
-					</div>
-
-					<!-- Sidebar -->
-						<div class="container-sidebar item-bar-block" id="mySidebar">
-							<div class="container-items">
-							  <button onclick="sidebar_close()" class="item-bar-item item-close">
-							<span><i class="fas fa-times"></i></span>
-							</button>
-							  <a href="#" class="item-bar-item item-button">Español<span><i class="fas fa-angle-down"></i></span></a>
-							  <a href="blog.html" class="item-bar-item item-button">Blog</a>
-							  <a href="about-us.html" class="item-bar-item item-button">Nosotros</a>
-							  <a href="#" class="item-bar-item item-button">Pensamos</a>
-							  <a href="conversemos.html" class="item-bar-item item-button">Conversemos</a>
-						  </div>
-						</div>
-						
-				</div>
-			</div>
-		</section>
-
+	<section class="content-banner-primary-blog-article">
 		<section class="content-blog-article-page">
 			<div class="container-title-content">
 				<div class="item-title">
@@ -74,8 +34,5 @@
 				<p class="item-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia nobis aperiam! Suscipit, ratione, accusantium. Saepe tempora illo laudantium voluptate unde repellendus earum obcaecati ipsum explicabo. Unde, placeat repellendus quisquam.</p>
 			</div>
 	</section>
-</section>
 
-<script src="js/menu-sidebar.js"></script>
-</body>
-</html>
+<?php include("footer.php"); ?>

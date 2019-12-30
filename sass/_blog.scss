@@ -1,13 +1,4 @@
-.content-general-blog{
-	padding: 0;
-	margin: 0;
-	background: url("../images/fondo.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	@media(min-width: $tablet){
-		background-size: cover;
-	}
+.content-general{
 
 		.content-one{
 		.header{
@@ -58,7 +49,6 @@
 	width: 100%;
 	min-height: 100vh;
 	height: 100%;
-
 .container-articles-content{
 	padding: 1rem 0 2rem 0;
 	@media(min-width: $tablet){
