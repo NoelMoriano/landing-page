@@ -1,5 +1,6 @@
 <?php
 
+//Loads Styles
 function load_stylesheets()
 {
 
@@ -12,3 +13,22 @@ function load_stylesheets()
 }
 
 add_action('wp_enqueue_scripts','load_stylesheets');
+
+
+
+
+
+
+
+
+
+//Loads Scripts
+
+function addjs() 
+{
+		wp_register_script('menu-sidebar', get_template_directory_uri().'/js/menu-sidebar.js', array(), 1, 1, 1);
+		wp_enqueue_script('menu-sidebar');
+
+		wp_register_script('custom', get_template_directory_uri().'/custom.js', array(), 1, 1, 1);
+		wp_enqueue_script('custom');
+}

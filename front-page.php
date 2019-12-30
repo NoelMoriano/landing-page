@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		<div class="item-rayitas">
-			<img src="images/rayitas.svg" alt="rayitas">
+			<img src="<?php bloginfo('template_directory');?>images/rayitas.svg" alt="rayitas">
 		</div>
 		
 	</section>
@@ -90,7 +90,7 @@
 						<span class="item-text-service">Construcción de Negocios</span>
 					</div>
 					<div class="item-rayitas">
-						<img src="images/rayitas.svg" alt="rayitas">
+						<img src="<?php bloginfo('template_directory');?>images/rayitas.svg" alt="rayitas">
 					</div>
 			</div>
 		</div>

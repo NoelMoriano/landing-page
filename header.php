@@ -17,7 +17,7 @@
 		<div class="header">
 			<div class="navbar">
 				<div class="container-logo">
-					<div class="item-logo"><a href="index.php"><img src="images/logo.svg" alt="logo"></a></div>
+					<div class="item-logo"><a href="index.php"><img src="<?php bloginfo('template_directory');?>/images/logo.svg" alt="logo"></a></div>
 				</div>
 				<div class="container-menu" onclick="sidebar_open()">
 					<i class="fas fa-bars"></i>

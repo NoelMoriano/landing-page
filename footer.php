@@ -1,5 +1,6 @@
 </section>
 
-<script src="js/menu-sidebar.js"></script>
+<?php wp_footer(); ?>
+
 </body>
 </html>
