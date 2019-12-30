@@ -19,10 +19,10 @@
 		<?php while (have_posts()) : the_posts(); ?>
 				<div class="item-article">
 					<div class="img-item">
-						<a href="<?php the_permalink();?>"><img class="img-article" src="<?php the_field('hero_image'); ?>" alt="Img-article"></a>
 					</div>
 					<div class="description-item">
-						<p class="description-article"><?php the_content('Read More'); ?></p>
+						<a href="#"><span class="title-article"><?php single_post_title('custom_title');?></span></a>
+					
 					</div>
 				</div>
 		<?php endwhile; ?>
