@@ -25,22 +25,19 @@
 
 				<!-- Sidebar -->
 					<div class="container-sidebar item-bar-block" id="mySidebar">
-						<div class="container-items">
-						  <button onclick="sidebar_close()" class="item-bar-item item-close">
-						<span><i class="fas fa-times"></i></span>
-						</button>
+						
 
 					<?php wp_nav_menu(
 
 							array(
 
-								'theme_location' => 'top_menu'
+								'theme_location' => 'top_menu',
+								'menu' => 'container-items',
+								'container' => 'ul',
+								'menu_class' => 'container-items'
 							)
 
 					); ?>
-
-					  </div>
-					</div>
 					
 			</div>
 		</div>
