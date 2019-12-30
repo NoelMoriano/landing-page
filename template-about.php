@@ -10,7 +10,7 @@
 		<section class="content-about-us-banner">
 			<div class="container-title-content">
 				<div class="item-title">
-						<span class="text-title"><?php the_title();?></span>
+						<span class="text-title">Somos un equipo transformador.</span>
 						<span class="text-sub-title"><?php the_title();?></span>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 
 			<div class="item-member">
 				<div class="img-item">
-					<img src="images/article-blank.png" alt="">
+					<img src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="">
 				</div>
 				<div class="description-item">
 					<span class="name-member">Daniel Catter</span>
@@ -32,7 +32,7 @@
 
 			<div class="item-member">
 				<div class="img-item">
-					<img src="images/article-blank.png" alt="Member">
+					<img src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Member">
 				</div>
 				<div class="description-item">
 					<span class="name-member">Johan Bejar</span>
@@ -42,7 +42,7 @@
 
 			<div class="item-member">
 				<div class="img-item">
-					<img src="images/article-blank.png" alt="Member">
+					<img src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Member">
 				</div>
 				<div class="description-item">
 					<span class="name-member">Diego Jara</span>
@@ -52,7 +52,7 @@
 
 			<div class="item-member">
 				<div class="img-item">
-					<img src="images/article-blank.png" alt="Member">
+					<img src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Member">
 				</div>
 				<div class="description-item">
 					<span class="name-member">Jorge Molina</span>
@@ -62,7 +62,7 @@
 
 			<div class="item-member">
 				<div class="img-item">
-					<img src="images/article-blank.png" alt="Member">
+					<img src="<?php bloginfo('template_directory');?>/images/article-blank.png" alt="Member">
 				</div>
 				<div class="description-item">
 					<span class="name-member">Jennifer Llancari</span>
