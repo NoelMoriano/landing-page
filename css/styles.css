@@ -872,7 +872,7 @@ body {
               grid-template-rows: 100%; } }
           .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .img-item a {
             cursor: pointer; }
-            .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .img-item a .iwp-post-image {
+            .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .img-item a .wp-post-image {
               width: 100%;
               height: 100%;
               -o-object-fit: cover;
