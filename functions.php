@@ -36,6 +36,7 @@ add_action('wp_enqueue_scripts','addjs');
 
 //Custom imgage size
 add_image_size('banner_about',1200, 600, false);
+add_image_size('banner_single_blog',1200, 600, false);
 
 
 //Support menus navbar
