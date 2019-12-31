@@ -1,5 +1,5 @@
 
-</article id="post-<?php the_ID(); ?>">
+</span id="post-<?php the_ID(); ?>">
 	<section class="content-banner-primary-blog-article">
 		<section class="content-blog-article-page">
 			<div class="container-title-content">
@@ -12,9 +12,6 @@
 			</div>
 		</section>
 	</section>
-
-
-
 
 
 	<section class="content-description-blog-article" class="entry-content"> 
@@ -46,4 +43,4 @@
 	</section>
 
 
-</article><!-- #post-<?php the_ID(); ?> -->
+</span><!-- #post-<?php the_ID(); ?> -->
