@@ -18,22 +18,20 @@
 						<div class="container-blog-articles">
 							<div class="content-items-articles">
 
-						<?php
-							/* Start the Loop */
-							while ( have_posts() ) :
-								the_post(); ?>
-												<div class="item-article">
-												
-													<div class="description-item">
-														<a href="#"><span class="title-article"><?php the_archive_title();?></span></a>
-											
-													<p class="description-article"><?php the_archive_description(); ?></p>
-													</div>
-												</div>
-												<?php
+							<?php
+								/* Start the Loop */
+								while ( have_posts() ) :
+									the_post();
 
-							endwhile; // End of the loop.
-							?>
+									get_template_part( 'template-parts/post/content', get_post_format() );
+
+									// If comments are open or we have at least one comment, load up the comment template.
+									if ( comments_open() || get_comments_number() ) :
+										comments_template();
+									endif;
+
+								endwhile; // End of the loop.
+								?>
 
 							</div>
 						</div>
@@ -42,5 +40,7 @@
 
 
 <?php get_footer(); ?>
+
+
 
 
