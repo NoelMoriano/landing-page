@@ -28,7 +28,7 @@
 													<div class="description-item">
 														<a href="#"><span class="title-article"><?php the_archive_title();?></span></a>
 											
-														<p class="description-article"><?php the_archive_description(); ?></p>
+													<p class="description-article"><?php the_archive_description(); ?></p>
 													</div>
 												</div>
 												<?php

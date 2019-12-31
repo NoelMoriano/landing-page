@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+
 
 
 	<section class="content-banner-primary-blog-article">
@@ -35,4 +35,3 @@
 			</div>
 	</section>
 
-<?php include("footer.php"); ?>
