@@ -906,19 +906,21 @@ body {
               @media (min-width: 720px) {
                 .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .info-article {
                   padding: 5px 0 0 2rem; } }
-            .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
-              font-size: .8rem;
-              font-weight: 300;
-              margin: 0;
-              font-family: "Arial", sans-serif;
-              -o-text-overflow: ellipsis;
-              text-overflow: ellipsis;
-              overflow: hidden;
-              white-space: pre-wrap;
-              padding: 8px 0; }
-              @media (min-width: 720px) {
-                .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
-                  padding: 5px 0 0 2rem; } }
+            .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text {
+              padding-left: 4rem; }
+              .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
+                font-size: .8rem;
+                font-weight: 300;
+                margin: 0;
+                font-family: "Arial", sans-serif;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: pre-wrap;
+                padding: 8px 0; }
+                @media (min-width: 720px) {
+                  .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
+                    padding: 5px 0 0 2rem; } }
 
 .content-general .content-one .header .navbar {
   width: 100%;
