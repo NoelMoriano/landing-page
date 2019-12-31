@@ -144,7 +144,10 @@
 							}
 					}
 					.item-content-text{
-						padding-left: 4rem;
+						padding-left: 0;
+						@media(min-width: $mobile){
+							padding-left: 3rem;
+							}
 					.description-article{
 						font-size: .8rem;
 						font-weight: 300;

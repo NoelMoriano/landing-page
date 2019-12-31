@@ -912,7 +912,10 @@ body {
                 .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .info-article {
                   padding: 5px 0 0 2rem; } }
             .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text {
-              padding-left: 4rem; }
+              padding-left: 0; }
+              @media (min-width: 720px) {
+                .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text {
+                  padding-left: 3rem; } }
               .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
                 font-size: .8rem;
                 font-weight: 300;
