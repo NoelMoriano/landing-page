@@ -1,7 +1,7 @@
 
 
-</article id="post-<?php the_ID(); ?>">
-	<section class="content-banner-primary-blog-article"  style="background: url(<?php the_post_thumbnail_url();?>) !important; background-size: cover !important;">
+
+	<section class="content-banner-primary-blog-article" id="post-<?php the_ID(); ?>">
 		<section class="content-blog-article-page">
 			<div class="container-title-content">
 				<div class="item-title">
@@ -15,8 +15,14 @@
 	</section>
 
 
+
+
+
 	<section class="content-description-blog-article" class="entry-content"> 
 		<div class="container-blog-article-detail">
+				
+				<?php the_post_thumbnail( 'banner_single_blog' ); ?>
+
 				<p class="item-text-description">	<?php
 		the_content(
 			sprintf(
