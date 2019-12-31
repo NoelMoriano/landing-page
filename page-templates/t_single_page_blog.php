@@ -1,6 +1,7 @@
 <?php
 /*
  Template Name: Single Page Entrada
+ Template Post Type: post
  */
 	get_header();
 ?>
