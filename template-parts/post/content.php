@@ -1,6 +1,6 @@
 
 
-	<section class="content-banner-primary-blog-article" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+	<section class="content-banner-primary-blog-article" id="post-<?php the_ID(); ?>">
 		<section class="content-blog-article-page">
 			<div class="container-title-content">
 				<div class="item-title">
@@ -25,15 +25,6 @@
 						/* translators: %s: Post title. */
 						__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
 						get_the_title()
-					)
-				);
-
-				wp_link_pages(
-					array(
-						'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
-						'after'       => '</div>',
-						'link_before' => '<span class="page-number">',
-						'link_after'  => '</span>',
 					)
 				);
 				?>
