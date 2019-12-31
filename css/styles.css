@@ -855,7 +855,7 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
         .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article {
-          margin: 10px 5px 10px 5px;
+          margin: 2.2rem 5px;
           padding: 7px;
           width: 100%;
           height: auto;
@@ -920,7 +920,7 @@ body {
               padding-left: 0; }
               @media (min-width: 720px) {
                 .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text {
-                  padding-left: 3rem; } }
+                  padding-left: 2rem; } }
               .content-general .content-blog-page .container-articles-content .container-blog-articles .content-items-articles .item-article .description-item .item-content-text .description-article {
                 font-size: .8rem;
                 font-weight: 300;

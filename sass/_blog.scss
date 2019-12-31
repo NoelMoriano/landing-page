@@ -93,7 +93,7 @@
 			flex-wrap: wrap;
 
 			.item-article{
-				margin: 10px 5px 10px 5px;
+				margin: 2.2rem 5px;
 				padding: 7px;
 				width: 100%;
 				height: auto;
@@ -149,7 +149,7 @@
 					.item-content-text{
 						padding-left: 0;
 						@media(min-width: $mobile){
-							padding-left: 3rem;
+							padding-left: 2rem;
 							}
 					.description-article{
 						font-size: .8rem;
