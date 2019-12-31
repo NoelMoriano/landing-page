@@ -7,7 +7,7 @@
 						<a href="<?php the_permalink(); ?>"><div class="item-go-back"><i class="fa fa-arrow-left"></i>Volver al blog</div></a>	
 						<span class="text-title"><?php the_title()?></span>
 						<span class="text-sub-title">Subtítulo completo que refuerce la idea principal</span>
-						<span class="text-info-blog">Nombre completo del autor / 01-01-2000 / Categoría</span>
+						<span class="text-info-blog"><?php the_author_posts_link(); ?> / <?php the_time('F jS, Y'); ?> / Categoría</span>
 				</div>
 			</div>
 		</section>
