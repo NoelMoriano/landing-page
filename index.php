@@ -24,7 +24,7 @@
 					<div class="img-item">
 						<a href="<?php the_permalink(); ?>">
 							<!--<img class="img-article" src="images/article-blank.png" alt="Img-article"> -->
-							<?php the_post_thumbnail('full'); ?>
+							<?php the_post_thumbnail(); ?>
 						</a>
 					</div>
 					<div class="description-item">
