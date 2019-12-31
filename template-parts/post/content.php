@@ -1,6 +1,6 @@
 
-</article id="post-<?php the_ID(); ?>">
-	<section class="content-banner-primary-blog-article">
+
+	<section class="content-banner-primary-blog-article" id="post-<?php the_ID(); ?>">
 		<section class="content-blog-article-page">
 			<div class="container-title-content">
 				<div class="item-title">
@@ -41,6 +41,4 @@
 
 			</div>
 	</section>
-
-
-</article><!-- #post-<?php the_ID(); ?> -->
+<!-- #post-<?php the_ID(); ?> -->
