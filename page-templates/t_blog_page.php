@@ -2,7 +2,6 @@
 <?php
 /*
  Template Name: Page Blog
- Template Post Type: post
  */
 	get_header();
 ?>
