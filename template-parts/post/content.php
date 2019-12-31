@@ -1,18 +1,23 @@
 
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+</article id="post-<?php the_ID(); ?>">
+	<section class="content-banner-primary-blog-article" <?php post_class(); ?> class="post-thumbnail" style="background: url(<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>)!important; background-size: cover !important;">
+		<section class="content-blog-article-page">
+			<div class="container-title-content">
+				<div class="item-title">
+						<a href="<?php the_permalink(); ?>"><div class="item-go-back"><i class="fa fa-arrow-left"></i>Volver al blog</div></a>	
+						<span class="text-title"><?php the_title()?></span>
+						<span class="text-sub-title">Subtítulo completo que refuerce la idea principal</span>
+						<span class="text-info-blog">Nombre completo del autor / 01-01-2000 / Categoría</span>
+				</div>
+			</div>
+		</section>
+	</section>
 
 
-	<?php if ( '' !== get_the_post_thumbnail() && ! is_single() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'twentyseventeen-featured-image' ); ?>
-			</a>
-		</div><!-- .post-thumbnail -->
-	<?php endif; ?>
-
-	<div class="entry-content">
-		<?php
+	<section class="content-description-blog-article" class="entry-content"> 
+		<div class="container-blog-article-detail">
+				<p class="item-text-description">	<?php
 		the_content(
 			sprintf(
 				/* translators: %s: Post title. */
@@ -29,13 +34,11 @@
 				'link_after'  => '</span>',
 			)
 		);
-		?>
-	</div><!-- .entry-content -->
+		?></p>
 
-	<?php
-	if ( is_single() ) {
-		twentyseventeen_entry_footer();
-	}
-	?>
+
+			</div>
+	</section>
+
 
 </article><!-- #post-<?php the_ID(); ?> -->
