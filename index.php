@@ -30,7 +30,9 @@
 					<div class="description-item">
 						<a href="<?php the_permalink();?>"><span class="title-article"><?php the_title();?></span></a>
 						<span class="info-article"><?php the_author_posts_link(); ?> / <?php the_time('F jS, Y'); ?></span>
+						<div class="item-content-text">
 						<p class="description-article"><?php the_content('Read more');?></p>
+						</div>
 					</div>
 				</div>
 
