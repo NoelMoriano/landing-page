@@ -21,7 +21,7 @@
 	<section class="content-description-blog-article" class="entry-content"> 
 		<div class="container-blog-article-detail">
 				
-				<?php the_post_thumbnail( 'banner_single_blog' ); ?>
+				<div><?php the_post_thumbnail( 'banner_single_blog' ); ?></div>
 
 				<p class="item-text-description">	<?php
 		the_content(
