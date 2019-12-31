@@ -19,24 +19,24 @@
 				
 				<div><?php the_post_thumbnail( 'banner_single_blog' ); ?></div>
 
-				<p class="item-text-description">	<?php
-		the_content(
-			sprintf(
-				/* translators: %s: Post title. */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
-				get_the_title()
-			)
-		);
+				<?php
+				the_content(
+					sprintf(
+						/* translators: %s: Post title. */
+						__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
+						get_the_title()
+					)
+				);
 
-		wp_link_pages(
-			array(
-				'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
-				'after'       => '</div>',
-				'link_before' => '<span class="page-number">',
-				'link_after'  => '</span>',
-			)
-		);
-		?></p>
+				wp_link_pages(
+					array(
+						'before'      => '<div class="page-links">' . __( 'Pages:', 'twentyseventeen' ),
+						'after'       => '</div>',
+						'link_before' => '<span class="page-number">',
+						'link_after'  => '</span>',
+					)
+				);
+				?>
 
 
 			</div>
